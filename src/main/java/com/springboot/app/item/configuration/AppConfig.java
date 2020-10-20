@@ -1,4 +1,4 @@
-package com.formacionbdi.springboot.app.item.configuration;
+package com.springboot.app.item.configuration;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

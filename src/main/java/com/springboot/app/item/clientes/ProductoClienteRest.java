@@ -1,4 +1,4 @@
-package com.formacionbdi.springboot.app.item.clientes;
+package com.springboot.app.item.clientes;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.formacionbdi.springboot.app.item.models.Producto;
+import com.springboot.app.item.models.Producto;
 
 @FeignClient(name = "servicio-productos")
 public interface ProductoClienteRest {
