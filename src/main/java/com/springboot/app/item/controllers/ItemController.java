@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.springboot.app.item.models.Item;
-import com.springboot.app.item.models.Producto;
+import com.app.ms.commons.models.entity.Producto;
 import com.springboot.app.item.models.service.ItemService;
 
 @RestController

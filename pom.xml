@@ -60,6 +60,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.app.ms.commons</groupId>
+			<artifactId>ms-commons</artifactId>
+			<version>2.2.7.RELEASE</version>		
+		</dependency>		
 	</dependencies>
 
 	<build>
